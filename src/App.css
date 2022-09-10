@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.main-layout{ 
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.quiz-layout {
+  width: 50%;
+}
+
+.highlight { 
+  color: red;
+}
+
+.dropdown {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.optionBtn {
+  width: 50%;
+  margin: 5px;
+}
+
+label {
+margin: 5px;
+}
+
+.score-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-button {
+  margin: 10px;
+}
